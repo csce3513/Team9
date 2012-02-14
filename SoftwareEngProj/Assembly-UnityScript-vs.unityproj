@@ -44,7 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\walk.js" />
+     <Compile Include="Assets\movement.js" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Skyboxes\skybox info.txt" />
  <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
