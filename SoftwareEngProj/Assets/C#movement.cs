@@ -4,10 +4,11 @@ using System.Collections;
 
 
 public class NewBehaviourScript : MonoBehaviour {
-	
+	float distance = 0;
 	int acc = 1;
 	float speed = (-0.1f);
 	float jump = 0.5f;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -15,6 +16,9 @@ public class NewBehaviourScript : MonoBehaviour {
 	
 	// Update is called once per frame
     void Update () {
+		
+		distance = DistanceTraveled(transform.position.x);
+		
 		bool right = Input.GetKey("d");
 		bool left = Input.GetKey("a");
 		bool up = Input.GetKey("space");
@@ -43,4 +47,15 @@ public class NewBehaviourScript : MonoBehaviour {
 		}
 		
 	}
+	
+	public static float DistanceTraveled (float dis) {
+		dis = 1 + dis;
+		return dis;
+	}
+	
+	public static bool keyPressed(bool direction) {
+		return direction;
+	}
+	
+	
 }

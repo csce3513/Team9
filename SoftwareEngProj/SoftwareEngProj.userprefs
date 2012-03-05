@@ -1,9 +1,23 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/movement.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/bulletMovement.js">
     <Files>
-      <File FileName="Assets/movement.js" Line="15" Column="1" />
+      <File FileName="Assets/bulletLogic.cs" Line="20" Column="34" />
+      <File FileName="Assets/C#movement.cs" Line="27" Column="17" />
+      <File FileName="Assets/bulletMovement.cs" Line="6" Column="2" />
+      <File FileName="Assets/bulletMovement.js" Line="7" Column="4" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State selected="True" />
+      </Pad>
+      <Pad Id="ClassPad">
+        <State selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
