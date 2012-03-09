@@ -50,6 +50,7 @@
      <Compile Include="Assets\SaveTextCS.cs" />
      <Compile Include="Assets\SharpUnit\AssemblyInfo.cs" />
      <Compile Include="Assets\SharpUnit\Assert.cs" />
+     <Compile Include="Assets\SharpUnit\Everythings_There_Test.cs" />
      <Compile Include="Assets\SharpUnit\TestCase.cs" />
      <Compile Include="Assets\SharpUnit\TestException.cs" />
      <Compile Include="Assets\SharpUnit\TestReporter.cs" />
