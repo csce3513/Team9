@@ -1,7 +1,7 @@
 var acc = 1;
+var jumpspeed = 100.0f;
 
-
-function Update () {
+function FixedUpdate () {
 
 	var right = Input.GetKey("d");
 	var left = Input.GetKey("a");
@@ -26,7 +26,11 @@ function Update () {
 	}
 	
 	if(up){
-		animation.Play("Walk");
-		transform.Translate(0,.5,0);
+		Jump();
 	}
+}
+
+function Jump()
+{
+	rigidbody.AddForce(Vector3.up *jumpspeed);
 }

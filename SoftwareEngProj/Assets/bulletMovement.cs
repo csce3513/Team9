@@ -14,7 +14,7 @@ public class bulletMovement{
 	void Update () {
 		bool tab = Input.GetKey("tab");
 		if(tab){
-			missile = Instantiate(bullet,transform.position, transform.rotation) as GameObject;
+			//missile = Instantiate(bullet,transform.position, transform.rotation) as GameObject;
 		}
 	
 	}

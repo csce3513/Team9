@@ -7,6 +7,7 @@ public class bulletLogic : MonoBehaviour {
 	void Start ()
 	{
 		distance = transform.position.x;
+		transform.Translate(0,0.3f,-0.3f);
 	}
 
 	// Update is called once per frame
@@ -17,7 +18,7 @@ public class bulletLogic : MonoBehaviour {
 		}
 		else
 		{
-			transform.Translate(0,0,0.1f);
+			transform.Translate(0,0,-0.3f);
 		}
 	}
 	
@@ -25,7 +26,7 @@ public class bulletLogic : MonoBehaviour {
 	{
 		float temp = transform.position.x - begdis;
 		temp = Math.Abs(temp);
-		if(temp >5)
+		if(temp >10)
 		{
 			return true;
 		}
