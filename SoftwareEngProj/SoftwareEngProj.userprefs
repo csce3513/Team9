@@ -1,25 +1,28 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SharpUnit/Everythings_There_Test.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Code/cameramovement.js">
     <Files>
-      <File FileName="Assets/SharpUnit/Unity3D_TestRunner.cs" Line="25" Column="36" />
-      <File FileName="Assets/SharpUnit/Unity3D_TestReporter.cs" Line="19" Column="34" />
-      <File FileName="../../../Downloads/SharpUnit_2010_08_23/SharpUnitTest/Tests/TestCase_Test.cs" Line="59" Column="48" />
-      <File FileName="Assets/SharpUnit/Everythings_There_Test.cs" Line="48" Column="7" />
+      <File FileName="Assets/Code/bulletLogic.cs" Line="9" Column="27" />
+      <File FileName="Assets/Code/Spotlight.cs" Line="1" Column="1" />
+      <File FileName="Assets/Code/movement.js" Line="9" Column="2" />
+      <File FileName="Assets/Code/cameramovement.js" Line="10" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="SharpUnit" expanded="True">
-                <Node name="Everythings_There_Test.cs" selected="True" />
-              </Node>
+              <Node name="Code" expanded="True" />
+              <Node name="SharpUnit" expanded="True" />
             </Node>
           </Node>
           <Node name="Assembly-CSharp-firstpass" expanded="True" />
           <Node name="Assembly-UnityScript" expanded="True">
-            <Node name="Assets" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Code" expanded="True">
+                <Node name="cameramovement.js" selected="True" />
+              </Node>
+            </Node>
           </Node>
           <Node name="Assembly-UnityScript-firstpass" expanded="True" />
         </State>
