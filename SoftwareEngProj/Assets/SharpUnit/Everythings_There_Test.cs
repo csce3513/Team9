@@ -46,4 +46,10 @@ public class Everythings_There_Test : TestCase
     {
 		Assert.NotNull(GameObject.Find("Directional light"));
     }	
-}
+	
+	[UnitTest]
+	public void TestAlien()
+	{
+		Assert.NotNull(GameObject.Find("alienproject"));
+	}
+	}
