@@ -9,7 +9,39 @@ function Update () {
 			//var instance : GameObject = Instantiate(bullet,transform.position, transform.rotation);
 			shooting();
 		}
+		
+	/*	if(currAmmo > 0)
+		{
+			if( mbd)
+			{
+				//var instance : GameObject = Instantiate(bullet,transform.position, transform.rotation);
+				shooting();
+				currAmmo = currAmmo - 1;
+			}
+		}
+			
+		if(currAmmo < 10)
+		{
+			if(tab)
+			{	
+				if( (10 - currAmmo) > reloadAmmo)
+				{
+					currAmmo = currAmmo + reloadAmmo;
+					reload = 0;
+				}
+				else
+				{
+					reloadAmmo = reloadAmmo - ( 10 - currAmmo );
+					currAmmo = 10;
+				}
+			}
+		}*/
+		
+		
+		
 }
+
+
 
 function shooting()
 {

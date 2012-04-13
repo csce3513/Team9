@@ -37,13 +37,15 @@
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
 	<Reference Include="UnityEngine">
-	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AlienAI.cs" />
+     <Compile Include="Assets\AlienHealth.cs" />
      <Compile Include="Assets\Code\C#movement.cs" />
      <Compile Include="Assets\Code\MenuText.cs" />
      <Compile Include="Assets\Code\QuitTextCS.cs" />
@@ -52,6 +54,7 @@
      <Compile Include="Assets\Code\bulletLogic.cs" />
      <Compile Include="Assets\Code\bulletMovement.cs" />
      <Compile Include="Assets\Code\tddGun.cs" />
+     <Compile Include="Assets\HealthBar.cs" />
      <Compile Include="Assets\Orthello\Examples\1 - Paralax scrolling FilledSprite\CExample1.cs" />
      <Compile Include="Assets\Orthello\Examples\2 - Moving collidable sprites\CBlock2.cs" />
      <Compile Include="Assets\Orthello\Examples\2 - Moving collidable sprites\CExample2.cs" />
@@ -130,6 +133,7 @@
      <Compile Include="Assets\RageSpline\Example - RageCar\CameraFollow.cs" />
      <Compile Include="Assets\RageSpline\Example - RageCar\Car.cs" />
      <Compile Include="Assets\RageSpline\Example - RageCar\LevelBounds.cs" />
+     <Compile Include="Assets\SharpUnit\AlienDie.cs" />
      <Compile Include="Assets\SharpUnit\AssemblyInfo.cs" />
      <Compile Include="Assets\SharpUnit\Assert.cs" />
      <Compile Include="Assets\SharpUnit\Everythings_There_Test.cs" />
@@ -180,7 +184,7 @@
      <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Opaque Specular.shader" />
      <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Specular.shader" />
      <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface SFX Depth Write Only.shader" />
- <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
+ <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
   </ItemGroup>

@@ -1,39 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Code/cameramovement.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\AlienAI.cs">
     <Files>
-      <File FileName="Assets/Code/bulletLogic.cs" Line="9" Column="27" />
-      <File FileName="Assets/Code/Spotlight.cs" Line="1" Column="1" />
-      <File FileName="Assets/Code/movement.js" Line="9" Column="2" />
-      <File FileName="Assets/Code/cameramovement.js" Line="10" Column="38" />
+      <File FileName="Assets\AlienAI.cs" Line="49" Column="22" />
+      <File FileName="Assets\Code\bulletMovement.js" Line="1" Column="1" />
+      <File FileName="Assets\SharpUnit\AlienDie.cs" Line="8" Column="7" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Code" expanded="True" />
-              <Node name="SharpUnit" expanded="True" />
-            </Node>
-          </Node>
-          <Node name="Assembly-CSharp-firstpass" expanded="True" />
-          <Node name="Assembly-UnityScript" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Code" expanded="True">
-                <Node name="cameramovement.js" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-          <Node name="Assembly-UnityScript-firstpass" expanded="True" />
-        </State>
-      </Pad>
-      <Pad Id="ClassPad">
-        <State selected="True" />
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
